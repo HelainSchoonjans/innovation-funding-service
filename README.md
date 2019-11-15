@@ -114,3 +114,5 @@ I had to run Intellij Idea as Administrator and build outside of the VPN.
 
 Untested; I need to have openssl installed and working on Windows.
 Or, simply create certificates in the subprojects of ifs-auth-service in their src/docker/certs folder.
+
+## Task :ifs-security:compileJava FAILED: cannot find symbol import javax.annotation.PostConstruct;
