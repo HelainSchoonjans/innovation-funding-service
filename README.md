@@ -101,3 +101,16 @@ Create asciidoc
     ./gradlewe clean asciidoctorOnly
 
 
+    
+# Troubleshooting on Windows
+
+A the moment I write those lines, I still didn't manage to make it work on Windows
+
+## Dependency resolution error: peer not authenticated
+
+I had to run Intellij Idea as Administrator and build outside of the VPN.
+
+## A problem occurred starting process 'command 'openssl''
+
+Untested; I need to have openssl installed and working on Windows.
+Or, simply create certificates in the subprojects of ifs-auth-service in their src/docker/certs folder.
